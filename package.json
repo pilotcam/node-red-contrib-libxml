@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-libxml",
+  "version": "0.1.0",
+  "description": "XML Schema Validator based on node-libxml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilotcam/node-red-contrib-libxml.git"
+  },
+  "keywords": [
+    "node-red",
+    "xsd",
+    "schema",
+    "validation",
+    "libxml",
+    "xml"
+  ],
+  "node-red": {
+    "nodes": {
+      "libxml-xsd": "libxml-xsd.js"
+    }
+  },
+  "author": "Cam Scholl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pilotcam/node-red-contrib-libxml/issues"
+  },
+  "homepage": "https://github.com/pilotcam/node-red-contrib-libxml#readme",
+  "dependencies": {
+    "node-libxml": "^4.1.2"
+  }
+}
